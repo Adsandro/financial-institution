@@ -18,5 +18,8 @@ public class Main {
         Cliente cliente = new Cliente(numeroConta, agencia, nomeCliente, saldo);
         cliente.mostraDados();
         scanner.close();
+
+        ProcessoSeletivo novoFuncionario = new ProcessoSeletivo("Adsandro", 1000);
+        novoFuncionario.analisaCandidato();
     }
 }
